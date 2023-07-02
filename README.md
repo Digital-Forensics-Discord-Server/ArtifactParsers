@@ -1,6 +1,12 @@
 # ArtifactParsers
 
-A repo that aims to centralize a current, running list of relevant parsers/tools for known DFIR artifacts
+A repo that aims to centralize a current, running list of relevant parsers/tools for known DFIR artifacts. 
+
+## Commercial Tool Disclaimer
+
+It's not that commercial tools aren't welcome in this list, but the table would become pretty bloated when you have 5+ tools duplicated in many cells. At the very minimum, this project aims to highlight single purpose tools made by the DFIR community members to allow for greater visibility at the options (often at no cost) for those who are looking to get problems solved in their everyday investigations.
+
+Much love to the commercial vendors, their efforts, and their contributions to the community, but it would be ideal for anyone looking to learn more about the capabilities of a commercial tool to reach out to the vendor themselves, or visit their official website for more information.
 
 ## Windows
 
