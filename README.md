@@ -1,9 +1,8 @@
 # ArtifactParsers
 
-
-
 A repo that aims to centralize a current, running list of relevant parsers/tools for known DFIR artifacts
 
+## Windows
 
 | DFIR Artifact                        | CLI Tool(s)                                                                                                                                                                                                                                                           | GUI Tool(s)                                                                                                                                                                                                                                                                                                                                 |
 |--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -46,3 +45,13 @@ A repo that aims to centralize a current, running list of relevant parsers/tools
 | WBEM (WMI)                           | [flare-wmi](https://github.com/mandiant/flare-wmi)<br>[PyWMIPersistenceFinder](https://github.com/davidpany/WMI_Forensics)<br>[WMIParserStr](https://github.com/AndrewRathbun/WMIParserStr)<br>[WMI-Parser](https://github.com/AndrewRathbun/WMI-Parser)              | [WMI-Explorer](https://github.com/AndrewRathbun/WMI-Explorer)                                                                                                                                                                                                                                                                               |
 | Windows Defender Logs                | [DHParser](https://github.com/jklepsercyber/defender-detectionhistory-parser)                                                                                                                                                                                         |                                                                                                                                                                                                                                                                                                                                             |
 | Windows Search Index Database        | [SIDR](https://github.com/strozfriedberg/sidr)                                                                                                                                                                                                                        | [WinSearchDBAnalyzer](https://github.com/AndrewRathbun/WinSearchDBAnalyzer)                                                                                                                                                                                                                                                                 |
+
+## Analyzers vs Parsers
+
+In the instance of Windows Event Logs, the Windows Registry, and possibly other artifacts, there is a distinct difference between a tool that analyzes an artifact and parses the artifact. Generally speaking, a tool that analyzes would do something similar to running YARA or SIGMA rules against a set of artifacts and provide meaningful output based on the rulesets used. A parser would provide raw output without any sort of predetermined rulesets or logic applied to the set of artifacts, leaving the analysis and interpretation to the end examiner. 
+
+This is an important distinction to make with this project because, in the example of Windows Event Logs, it would be troublesome to lead an examiner looking for a tool to parse Windows Event Logs to think that a tool like Chainsaw, Hayabusa, or Zircolite will parse event logs when in reality they analyze the event logs using rulesets and logic created by threat researchers. Those tools do not PARSE the event logs like EvtxECmd, etc. 
+
+## Contributing
+
+Please contribute to this list if any artifacts and their corresponding tools are missing!
