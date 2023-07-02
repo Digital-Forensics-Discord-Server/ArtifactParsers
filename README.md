@@ -2,6 +2,10 @@
 
 A repo that aims to centralize a current, running list of relevant parsers/tools for known DFIR artifacts. 
 
+## What makes this different from any other list of DFIR tools? 
+
+Ideally, this will be maintained by the community as tools come and go from relevance. If a tool is listed below, then the community is vouching for it that it still works and is a good option to solve whatever problem you may be facing with a particular artifact.
+
 ## Commercial Tool Disclaimer
 
 It's not that commercial tools aren't welcome in this list, but the table would become pretty bloated when you have 5+ tools duplicated in many cells. At the very minimum, this project aims to highlight single purpose tools made by the DFIR community members to allow for greater visibility at the options (often at no cost) for those who are looking to get problems solved in their everyday investigations.
