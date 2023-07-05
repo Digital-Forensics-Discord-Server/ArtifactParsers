@@ -75,17 +75,18 @@ Please contribute to this list if any artifacts and their corresponding tools st
 
 ## Android
 
-| DFIR Artifact     | CLI Tool(s)                                           | GUI Tools(s)                                                                                                                                                             |
-|-------------------|-------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Android Artifacts | [ALEAPP](https://github.com/abrignoni/ALEAPP)         | [ALEAPP](https://github.com/abrignoni/ALEAPP)<br>[Andriller](https://github.com/den4uk/andriller)<br>[Avilla Forensics](https://github.com/AvillaDaniel/AvillaForensics) |
-| SQLite Databases  | [SQLECmd](https://ericzimmerman.github.io/#!index.md) | [DB Browser for SQLite](https://sqlitebrowser.org/)                                                                                                                      |
+| DFIR Artifact     | CLI Tool(s)                                                                                       | GUI Tools(s)                                                                                                                                                             |
+|-------------------|---------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Android Artifacts | [ALEAPP](https://github.com/abrignoni/ALEAPP)<br>[Andriller](https://github.com/den4uk/andriller) | [ALEAPP](https://github.com/abrignoni/ALEAPP)<br>[Andriller](https://github.com/den4uk/andriller)<br>[Avilla Forensics](https://github.com/AvillaDaniel/AvillaForensics) |
+| SQLite Databases  | [SQLECmd](https://ericzimmerman.github.io/#!index.md)                                             | [DB Browser for SQLite](https://sqlitebrowser.org/)                                                                                                                      |
 
 ## iOS
 
-| DFIR Artifact | CLI Tool(s)                                   | GUI Tools(s)                                                  |
-|---------------|-----------------------------------------------|---------------------------------------------------------------|
-| iOS Artifacts | [iLEAPP](https://github.com/abrignoni/iLEAPP) | [iLEAPP](https://github.com/abrignoni/iLEAPP)                 |
-| PList Files   |                                               | [plist Editor Pro](https://www.icopybot.com/plist-editor.htm) |
+| DFIR Artifact    | CLI Tool(s)                                           | GUI Tools(s)                                                  |
+|------------------|-------------------------------------------------------|---------------------------------------------------------------|
+| iOS Artifacts    | [iLEAPP](https://github.com/abrignoni/iLEAPP)         | [iLEAPP](https://github.com/abrignoni/iLEAPP)                 |
+| PList Files      |                                                       | [plist Editor Pro](https://www.icopybot.com/plist-editor.htm) |
+| SQLite Databases | [SQLECmd](https://ericzimmerman.github.io/#!index.md) | [DB Browser for SQLite](https://sqlitebrowser.org/)           |
 
 ## macOS
 
