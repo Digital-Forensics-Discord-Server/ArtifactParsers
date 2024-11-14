@@ -87,7 +87,7 @@ Please contribute to this list if any artifacts and their corresponding tools st
 | iOS Artifacts    | [iLEAPP](https://github.com/abrignoni/iLEAPP)         | [iLEAPP](https://github.com/abrignoni/iLEAPP)                 |
 | PList Files      |                                                       | [plist Editor Pro](https://www.icopybot.com/plist-editor.htm) |
 | SQLite Databases | [SQLECmd](https://ericzimmerman.github.io/#!index.md) | [DB Browser for SQLite](https://sqlitebrowser.org/)           |
-| Advanced logical backup & aquisition | | [UFADE](https://github.com/prosch88/UFADE)
+| Advanced logical backup & acquisition | | [UFADE](https://github.com/prosch88/UFADE)
 
 ## macOS
 
